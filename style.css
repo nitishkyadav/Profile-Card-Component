@@ -1,0 +1,81 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right:0px
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;   
+}
+
+article{
+    display:flex;
+    flex-direction: column;
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.img-top{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.middle{
+    border-bottom: 1px solid slategrey;
+}
+
+.ul-info li{
+    margin: 5px 0px 25px 0px;
+}
+.victor{
+    display: inline-block;
+    border-radius: 100%;
+    border: 5px solid white;
+    transform: translate(120px,-50px);
+    height: auto;
+}
+.ul-vertical{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0rem;
+}
+
+.li-social li{
+    margin: 0px 20px;
+    text-align: center;
+}
+.ul-name{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ul-name li{
+    margin: 0px 5px;
+}
+
+span, .li-name{
+    font-size: 18px;
+    font-weight: 700;
+}
