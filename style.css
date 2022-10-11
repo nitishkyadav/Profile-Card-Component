@@ -6,13 +6,15 @@
     bottom: 0px;
     left: 0px;
     right:0px
+    
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;   
+    position: fixed;  
+    background-color: hsl(185, 75%, 39%); 
 }
 
 article{
@@ -21,6 +23,7 @@ article{
     max-width: 350px;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: white;
 }
 .img-top{
     border-top-left-radius: 1rem;
